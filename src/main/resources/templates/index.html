@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Engine Dashboard</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Search Engine Dashboard</h1>
+    </header>
+    
+    <main>
+        <section id="statistics">
+            <h2>Статистика индексации</h2>
+            <div>
+                <p>Сайтов: <span id="sitesCount">0</span></p>
+                <p>Страниц: <span id="pagesCount">0</span></p>
+                <p>Лемм: <span id="lemmasCount">0</span></p>
+            </div>
+        </section>
+
+        <section id="control">
+            <h2>Управление индексацией</h2>
+            <button id="startIndexing">Запустить индексацию</button>
+            <button id="stopIndexing">Остановить индексацию</button>
+        </section>
+    </main>
+    
+    <script src="/js/scripts.js"></script>
+</body>
+</html>
